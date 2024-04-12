@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Currency</name>
+   <tag></tag>
+   <elementGuidId>1cb5887d-d06b-4099-a32c-036cf246a6a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='initialRows_0_currency']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#initialRows_0_currency</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#initialRows_0_currency</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c87ca7b6-3074-4d55-b9a8-6077128d1efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>currency</value>
+      <webElementGuid>9b1a0f61-fba8-4f16-a113-0d70ecb6c819</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>initialRows[0][currency]</value>
+      <webElementGuid>c9f60f28-b19b-4bc6-a119-37a15a7c7b13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>initialRows_0_currency</value>
+      <webElementGuid>ddd47188-0256-42a9-879d-3c51ef0dc0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+-- Select --
+INR
+USD
+</value>
+      <webElementGuid>d588e841-499a-40e7-8a61-ae88617e603e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;initialRows_0_currency&quot;)</value>
+      <webElementGuid>d87993e1-2638-42fb-9cfd-33843a16c097</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='initialRows_0_currency']</value>
+      <webElementGuid>7c3442d2-643b-4af3-8bdb-d81e00a3d6c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='travel_expense']/fieldset/ol[2]/table/tbody[2]/tr/td[8]/select</value>
+      <webElementGuid>72a6fad9-4cd6-4f3c-b50e-74b0c4c5a9e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::select[3]</value>
+      <webElementGuid>bc75cbfc-3ca1-4e03-a4dc-6175be2fd97b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::select[1]</value>
+      <webElementGuid>53856d76-641e-45ee-a3dc-8e228e7e3a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[2]/preceding::select[1]</value>
+      <webElementGuid>0f27cee5-855e-4824-ac89-cc310c471e8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/select</value>
+      <webElementGuid>89ecb3a2-41d4-420d-81ab-da4acfc0ded3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'initialRows[0][currency]' and @id = 'initialRows_0_currency' and (text() = '
+-- Select --
+INR
+USD
+' or . = '
+-- Select --
+INR
+USD
+')]</value>
+      <webElementGuid>234aba7f-34cd-4c0f-813c-2570538e0003</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

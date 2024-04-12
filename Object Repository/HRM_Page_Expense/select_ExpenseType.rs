@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ExpenseType</name>
+   <tag></tag>
+   <elementGuidId>9f2b5a91-2356-4346-8740-969e2704a913</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='initialRows_0_expense_type']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#initialRows_0_expense_type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#initialRows_0_expense_type</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d8b69077-64c4-4220-a9ad-e16ba9f806d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expenseType</value>
+      <webElementGuid>9ecf5c27-a0dc-443f-9f19-80140a21f08f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>initialRows[0][expense_type]</value>
+      <webElementGuid>51856b85-3983-4558-b689-cadfa86260b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>initialRows_0_expense_type</value>
+      <webElementGuid>22735e9a-30ce-4766-8b53-4ed529c40f26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Select
+Cab
+Event
+Flight
+Food
+Hotel
+Other
+Parking
+Personal 
+</value>
+      <webElementGuid>af3c322f-cb58-4313-b0f7-762fbc4c8284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;initialRows_0_expense_type&quot;)</value>
+      <webElementGuid>436db842-78a9-462c-b7f4-627cdaa19ea9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='initialRows_0_expense_type']</value>
+      <webElementGuid>e131f95e-1d60-478c-bdb9-d96889ffc66c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='travel_expense']/fieldset/ol[2]/table/tbody[2]/tr/td[3]/select</value>
+      <webElementGuid>5e6e4b79-4d92-473f-a244-de0a43e48faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::select[1]</value>
+      <webElementGuid>bb976949-d180-48d6-9aac-169d68a477ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::select[3]</value>
+      <webElementGuid>96c1fb11-28a0-44ae-b696-41e87ff57fe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[2]/preceding::select[3]</value>
+      <webElementGuid>9d0f8d7c-90fa-494b-9c5d-35af00e8cc9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/select</value>
+      <webElementGuid>355fb532-db17-45fa-89cf-c7f73620e198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'initialRows[0][expense_type]' and @id = 'initialRows_0_expense_type' and (text() = '
+Select
+Cab
+Event
+Flight
+Food
+Hotel
+Other
+Parking
+Personal 
+' or . = '
+Select
+Cab
+Event
+Flight
+Food
+Hotel
+Other
+Parking
+Personal 
+')]</value>
+      <webElementGuid>0065f6d6-7e48-4f5d-98d9-5f0091319c9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

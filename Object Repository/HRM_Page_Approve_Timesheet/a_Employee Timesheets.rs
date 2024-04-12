@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Employee Timesheets</name>
+   <tag></tag>
+   <elementGuidId>81f87e44-1af4-4dab-be51-893802f15597</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu_time_viewEmployeeTimesheet']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu_time_viewEmployeeTimesheet</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Employee Timesheets&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>28c73b3d-8804-451b-89c2-02927a221b83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/symfony/web/index.php/time/viewEmployeeTimesheet</value>
+      <webElementGuid>970323d3-e0d0-42bb-97d1-9f0908e67082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menu_time_viewEmployeeTimesheet</value>
+      <webElementGuid>2e629374-0983-448d-9893-11b35252e017</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee Timesheets</value>
+      <webElementGuid>53d5e066-2715-48eb-8afb-b5d042337c02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu_time_viewEmployeeTimesheet&quot;)</value>
+      <webElementGuid>0d3a7771-1ffa-454f-871b-4b489582e5a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='menu_time_viewEmployeeTimesheet']</value>
+      <webElementGuid>eaf0d7e1-989d-45e1-814f-9aa48fffdcef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/ul/li[3]/ul/li/ul/li[2]/a</value>
+      <webElementGuid>ac5af59e-98ff-46b6-a646-f5d8b36e35c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Employee Timesheets')]</value>
+      <webElementGuid>e4275c03-cbbc-4479-bbc0-8c73cbccfe28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Timesheets'])[1]/following::a[1]</value>
+      <webElementGuid>0020fd60-b54c-4655-bd11-8754f0010ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::a[3]</value>
+      <webElementGuid>fb1f8fe4-5399-48c4-a489-67b7ef568290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Records'])[1]/preceding::a[2]</value>
+      <webElementGuid>43b3ebb6-b154-4d95-8ad9-d44c7b0b917e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Punch In/Out'])[1]/preceding::a[3]</value>
+      <webElementGuid>03000df8-f797-45c0-b1ba-58358c86bfb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Employee Timesheets']/parent::*</value>
+      <webElementGuid>3672ad7b-b7f5-4bb4-8a0b-6bf892adfe5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/symfony/web/index.php/time/viewEmployeeTimesheet')]</value>
+      <webElementGuid>ef988d12-9111-4ee3-8a06-1cd4300643f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/li/ul/li[2]/a</value>
+      <webElementGuid>c58ad38f-33c8-4440-84b7-d144d52b0f45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/symfony/web/index.php/time/viewEmployeeTimesheet' and @id = 'menu_time_viewEmployeeTimesheet' and (text() = 'Employee Timesheets' or . = 'Employee Timesheets')]</value>
+      <webElementGuid>91d540de-3a94-4a09-9166-a5809082ccbf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_User_Management_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1c78449-26d8-4cb4-a93a-54ee80071565</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1d89f82-5816-4213-bfd3-fe6477dfb306</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5d72396-b9dc-439e-b7fa-eedcfa378009</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'prathibhab'</defaultValue>
+      <description></description>
+      <id>f1d89f82-5816-4213-bfd3-fe6477dfb306</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'1Yb2dq4Z+zlC+JtSqaShbQ=='</defaultValue>
+      <description></description>
+      <id>f5d72396-b9dc-439e-b7fa-eedcfa378009</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_PaidInAdvance</name>
+   <tag></tag>
+   <elementGuidId>277b5913-275d-4359-83e3-050b7d71b746</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='initialRows_0_paid_by_company']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#initialRows_0_paid_by_company</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#initialRows_0_paid_by_company</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>538367eb-2060-4fa7-84f3-bf1304cb49c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>paid</value>
+      <webElementGuid>27e33d9e-966b-4fa6-acd9-7dcb3d5afb1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>initialRows[0][paid_by_company]</value>
+      <webElementGuid>ba014ed4-40f7-4406-a189-f6c7440550b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>initialRows_0_paid_by_company</value>
+      <webElementGuid>dff76063-e24b-4c9d-abd3-8d183000e7bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Select
+NO
+YES
+</value>
+      <webElementGuid>7ee0e40a-39b1-483d-9014-239817f7f8d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;initialRows_0_paid_by_company&quot;)</value>
+      <webElementGuid>4e27a9b3-72ba-4a10-a05c-d9c2a309cd69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='initialRows_0_paid_by_company']</value>
+      <webElementGuid>6ca275b2-da05-44ac-90e7-cb189e042e82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='travel_expense']/fieldset/ol[2]/table/tbody[2]/tr/td[5]/select</value>
+      <webElementGuid>380d55bd-7cc2-423f-b165-6eb9ed61d7b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::select[2]</value>
+      <webElementGuid>eccbdb4e-7522-4bc7-b495-87e81bda2ef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::select[2]</value>
+      <webElementGuid>7af739fb-14b6-4eca-937b-0ba9064cee94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[2]/preceding::select[2]</value>
+      <webElementGuid>cc166e87-6d04-43f0-b8a3-c18153f4c067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/select</value>
+      <webElementGuid>4bf2912f-3297-4e8d-adb4-70a1c9df7253</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'initialRows[0][paid_by_company]' and @id = 'initialRows_0_paid_by_company' and (text() = '
+Select
+NO
+YES
+' or . = '
+Select
+NO
+YES
+')]</value>
+      <webElementGuid>bfa05c73-c20d-491f-8e44-077151a23541</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

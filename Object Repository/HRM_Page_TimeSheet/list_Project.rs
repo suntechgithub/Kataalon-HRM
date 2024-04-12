@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_Project</name>
+   <tag></tag>
+   <elementGuidId>f33eda15-7f9c-4ebb-8f16-16aabd2e1cff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'ADS-FHLBNY-AHP' or . = 'ADS-FHLBNY-AHP')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ac_even.ac_over</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'ADS-FHLBNY-AHP' or . = 'ADS-FHLBNY-AHP')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ADS-FHLBNY-AHP&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>db744d8a-c68e-4784-8aaf-febd1c022094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ac_even ac_over</value>
+      <webElementGuid>959c36c2-a06f-42be-aaf2-264e1d7095fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADS-FHLBNY-AHP</value>
+      <webElementGuid>c8492de3-7b3d-4aaf-9a51-14b9bcacf2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;ac_results&quot;]/ul[1]/li[@class=&quot;ac_even ac_over&quot;]</value>
+      <webElementGuid>3224e938-3b1a-497b-8571-f820c62fc87c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun Technologies, Inc'])[1]/following::li[1]</value>
+      <webElementGuid>25f1a0d8-da4b-483c-a1af-7560a365342d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='support.hrm@suntechnologies.com'])[1]/following::li[1]</value>
+      <webElementGuid>4e15b27b-afc1-4f2f-b40f-6cf149296d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ADS-FHLBNY-']/parent::*</value>
+      <webElementGuid>82709ade-ab83-4054-843d-b134eb90e332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/ul/li</value>
+      <webElementGuid>4fc3b123-59ed-4c14-b3b2-cf4ec7295603</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'ADS-FHLBNY-AHP' or . = 'ADS-FHLBNY-AHP')]</value>
+      <webElementGuid>f01c530a-caed-40d8-9038-e4dc1a51b845</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

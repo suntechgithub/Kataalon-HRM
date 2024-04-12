@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TimesheetApproved</name>
+   <tag></tag>
+   <elementGuidId>3172bc45-483a-4019-a50a-2bf601056cf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='timesheet']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.message.success.fadable</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Timesheet ApprovedClose&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>05cddf5c-ed07-4074-a442-f6e564df46ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>message success fadable</value>
+      <webElementGuid>8526698b-2ded-4a62-8d75-abbf113d0836</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Timesheet ApprovedClose</value>
+      <webElementGuid>091fc5f1-3b67-459c-99e8-ed93399a7532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;timesheet&quot;)/div[@class=&quot;inner&quot;]/div[@class=&quot;message success fadable&quot;]</value>
+      <webElementGuid>431f4d4a-375b-430a-802e-f65a4d8937f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='timesheet']/div/div</value>
+      <webElementGuid>241cf434-738b-4ea9-b1de-eef8d3a8975b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Timesheet'])[1]/following::div[3]</value>
+      <webElementGuid>f8acb485-822a-45be-a9ad-befe0b2c61f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Timesheets'])[2]/following::div[3]</value>
+      <webElementGuid>1f389fa4-0186-42a2-abf5-f805439d4bf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kunapuli Manikanta- 2903'])[1]/preceding::div[1]</value>
+      <webElementGuid>0762e88e-dccd-47f4-a5d5-e5d5d392896a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timesheet for Week'])[1]/preceding::div[1]</value>
+      <webElementGuid>f929c917-e71a-4e77-bee6-df40430776a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Timesheet Approved']/parent::*</value>
+      <webElementGuid>8e2ef253-fc1d-4d3b-9205-9e63b09c86cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>b163db64-494c-4032-a5c5-5af9bd3a36b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Timesheet ApprovedClose' or . = 'Timesheet ApprovedClose')]</value>
+      <webElementGuid>ed64ee34-0636-451a-907b-80855ca76bd6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

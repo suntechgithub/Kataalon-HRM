@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Leave List</name>
+   <tag></tag>
+   <elementGuidId>e02586bb-13d5-4f48-9898-67d7f7d0c08c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#menu_leave_viewLeaveList</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu_leave_viewLeaveList']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Leave List&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>424dc7b8-58b4-429c-b1e7-0ce5cae0329e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/symfony/web/index.php/leave/viewLeaveList/reset/1</value>
+      <webElementGuid>4becc10f-287f-432e-bfeb-89e4712c8edd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menu_leave_viewLeaveList</value>
+      <webElementGuid>89a84319-02e1-4c9b-b19b-e521fe069346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave List</value>
+      <webElementGuid>2b0f8e55-c473-45a7-98d2-dba9a4f76b85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu_leave_viewLeaveList&quot;)</value>
+      <webElementGuid>c44e6377-65ae-44ee-8ad3-cdfca8450165</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='menu_leave_viewLeaveList']</value>
+      <webElementGuid>f29cfda0-b971-4d91-9beb-bd350b5aff3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/ul/li[2]/ul/li[5]/a</value>
+      <webElementGuid>3fb17193-00f4-4a68-bfc7-8b19009fffd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Leave List')]</value>
+      <webElementGuid>3622c550-d40d-4b58-ba71-934696e564ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Leave Entitlements and Usage Report'])[1]/following::a[1]</value>
+      <webElementGuid>62ef7f0d-5bc3-4d43-ad74-17ee78357dac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave Entitlements and Usage Report'])[1]/following::a[2]</value>
+      <webElementGuid>e95aa3d5-eb7b-46ec-b865-79e2c1677300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign Leave'])[1]/preceding::a[1]</value>
+      <webElementGuid>28ecd0a1-fe17-4ce6-928d-57424332174d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/preceding::a[2]</value>
+      <webElementGuid>646befea-2c43-4968-a517-89cfb6c60048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leave List']/parent::*</value>
+      <webElementGuid>624b3704-d384-4c3a-ab85-d66ee1492551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/symfony/web/index.php/leave/viewLeaveList/reset/1')]</value>
+      <webElementGuid>aa818fe0-a3c1-489b-8613-cb84dcc3e4cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li[5]/a</value>
+      <webElementGuid>b448380d-cd73-46d5-ac39-6a76ba1459fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/symfony/web/index.php/leave/viewLeaveList/reset/1' and @id = 'menu_leave_viewLeaveList' and (text() = 'Leave List' or . = 'Leave List')]</value>
+      <webElementGuid>c429e923-104f-48e5-aacd-0940fa08da37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

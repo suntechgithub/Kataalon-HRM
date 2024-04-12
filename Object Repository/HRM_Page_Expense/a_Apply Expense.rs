@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Apply Expense</name>
+   <tag></tag>
+   <elementGuidId>3b5ea04d-d8a5-4334-9192-138bd36e9282</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='menu_expense_applyExpense'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > ul > li > #menu_expense_applyExpense</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Apply Expense&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1dc4d845-3aaa-4df2-bc00-a7492801111e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/symfony/web/index.php/expense/applyExpense</value>
+      <webElementGuid>8d181f3f-d6a4-4815-afd5-45713b51c2f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menu_expense_applyExpense</value>
+      <webElementGuid>cfbd5858-0d16-410d-8fff-1d2fa38bfe1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply Expense</value>
+      <webElementGuid>6ced073a-850a-40c7-886a-70d7e3c1e583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;menu&quot;]/ul[1]/li[4]/ul[1]/li[1]/a[@id=&quot;menu_expense_applyExpense&quot;]</value>
+      <webElementGuid>cde92ccb-b8fc-4e7c-b316-79243183fdeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='menu_expense_applyExpense'])[2]</value>
+      <webElementGuid>3d240a34-1bcd-4114-827c-59e911c1b997</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/ul/li[4]/ul/li/a</value>
+      <webElementGuid>4020bc2d-a3f3-4c8b-9981-6e0dce26bc03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Apply Expense')]</value>
+      <webElementGuid>3ca82453-8114-4ff0-acea-9bc7344f5119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expense'])[1]/following::a[1]</value>
+      <webElementGuid>39894ff6-bcc3-4865-a3dc-abfc90f9cab9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MGMT Timesheet Summary'])[1]/following::a[2]</value>
+      <webElementGuid>d1358384-5e39-42a6-876b-2e6d49a7910d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View My Expense'])[1]/preceding::a[2]</value>
+      <webElementGuid>82b06ddf-ddc6-4a8a-a67a-881db8cf47d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Employee Expense'])[1]/preceding::a[3]</value>
+      <webElementGuid>b1725ad0-5bd2-420c-b63d-307a34750756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apply Expense']/parent::*</value>
+      <webElementGuid>56103212-48eb-4032-b689-1d87734f042d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/symfony/web/index.php/expense/applyExpense')])[2]</value>
+      <webElementGuid>22b7c66a-4ef4-42d8-a1aa-d0bf6b2d1e8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/a</value>
+      <webElementGuid>0595a7a9-33d2-40df-947a-b1abadfd15c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/symfony/web/index.php/expense/applyExpense' and @id = 'menu_expense_applyExpense' and (text() = 'Apply Expense' or . = 'Apply Expense')]</value>
+      <webElementGuid>1c946593-fb50-466b-851d-d1fdcb3363ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select Action</name>
+   <tag></tag>
+   <elementGuidId>739e2407-6b73-4711-91af-2ac36d77a652</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#select_leave_action_36077</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='resultTable']/tbody/tr/td[9]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#select_leave_action_36077</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e3da1e51-491b-42cd-8e74-a4a8b8234f02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select_leave_action_36077</value>
+      <webElementGuid>05c9d0b1-681a-4d73-9cea-46f273e60973</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>select_leave_action_36077</value>
+      <webElementGuid>0e9007ea-dee7-4b20-9223-17b7c47efe6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select_action quotaSelect</value>
+      <webElementGuid>37af3673-5b13-45d5-95f1-0580255f83d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Action
+Approve
+Cancel
+Reject
+</value>
+      <webElementGuid>051d7e85-a68d-4bf9-971b-d5d404d9e9d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select_leave_action_36077&quot;)</value>
+      <webElementGuid>148de07a-595e-496f-9ba1-105bebdaca0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='select_leave_action_36077']</value>
+      <webElementGuid>d19d023c-c40e-428e-9858-36ba11e405c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='resultTable']/tbody/tr/td[9]/select</value>
+      <webElementGuid>40139e0c-c3e8-41a1-95bf-e26d82581aea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/following::select[1]</value>
+      <webElementGuid>4e6bda2d-4bb7-41c6-bc5c-330731bd1542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Approval(1.00)'])[1]/following::select[1]</value>
+      <webElementGuid>3abb8e9c-785d-4b96-857d-69ed933f6999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tejas V'])[1]/preceding::select[1]</value>
+      <webElementGuid>1061ea76-cfcf-437a-b869-2f859206399b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOP(Loss of Pay)'])[2]/preceding::select[1]</value>
+      <webElementGuid>b178676b-1b71-4d3f-a6cb-530c2857a31a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/select</value>
+      <webElementGuid>782c60f7-6045-4043-bc67-a88a7c4a0f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'select_leave_action_36077' and @name = 'select_leave_action_36077' and (text() = 'Select Action
+Approve
+Cancel
+Reject
+' or . = 'Select Action
+Approve
+Cancel
+Reject
+')]</value>
+      <webElementGuid>7f866eee-3a2a-4a42-bb7c-133721176970</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
