@@ -18,11 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : role_User, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/b_Expense'))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Expense/a_Apply Expense'))
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/HRM_Page_Expense/input__tripName'), 'Test')
 
@@ -46,7 +48,11 @@ WebUI.setText(findTestObject('Object Repository/HRM_Page_Expense/input_Amount'),
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/HRM_Page_Expense/select_Currency'), 'INR', true)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('HRM_Page_Expense/btn_Submit'))
+
+WebUI.takeScreenshot()
 
 Date currentDateTime = new Date()
 
@@ -60,7 +66,11 @@ WebUI.acceptAlert()
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/div_SuccessfullySaved'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('HRM_Page_Expense/div_SuccessfullySaved'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/b_Expense'))
 
@@ -71,6 +81,8 @@ WebUI.click(findTestObject('Object Repository/HRM_Page_Expense/a_View My Expense
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/expense/viewMyExpenseReport')
 
 submittedDateTime = WebUI.getText(findTestObject('Object Repository/HRM_Page_Expense/txt_SubmittedDateTime'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
 
 println('Submitted DateTime is: ' + submittedDateTime)
 

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : role_User, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Leave/b_Leave'))
 
@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Object Repository/HRM_Page_Leave/a_Leave'))
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/leave/applyLeave')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Leave/h1_Apply Leave'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/HRM_Page_Leave/select_LeaveOptions'), '9', true)
 
@@ -69,11 +71,20 @@ WebUI.setText(findTestObject('Object Repository/HRM_Page_Leave/text_Comment_Appl
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Leave/input__applyBtn'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/HRM_Page_Leave/input_Confirmation Required'))
+
+WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Leave/div_SuccessfullySubmitted'), 0)
 
+WebUI.takeScreenshot()
+
 WebUI.callTestCase(findTestCase('Logout_HRM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Validate_Leave_Approval_By_Manager'), [('username') : role_Manager, ('password') : password], 
+    FailureHandling.STOP_ON_FAILURE)
 
 def isWeekend(def date) {
     Calendar cal = Calendar.getInstance()

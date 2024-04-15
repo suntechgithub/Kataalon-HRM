@@ -6,19 +6,19 @@
    <elementGuidId>83f76dfb-8a59-40b2-b81f-b0f1c35b59c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='initialRows_0_5']</value>
+         <key>BASIC</key>
+         <value>//input[@class = 'timeBox' and @type = 'text']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#initialRows_0_5</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@class = 'timeBox' and @type = 'text']</value>
+         <key>XPATH</key>
+         <value>//input[@id='initialRows_0_5']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

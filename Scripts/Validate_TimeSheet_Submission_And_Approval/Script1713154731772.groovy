@@ -18,12 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 
-WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : role_User, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/span_My Timesheet'))
 
 //WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/Page_Sun Technologies HRM/span_My Timesheet'))
 WebUI.waitForElementClickable(findTestObject('HRM_Page_TimeSheet/select_Timesheet'), 60)
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/HRM_Page_TimeSheet/select_Timesheet'), '3', FailureHandling.STOP_ON_FAILURE)
 
@@ -63,6 +65,8 @@ WebUI.clearText(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hrs_F
 
 WebUI.setText(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hrs_Fri'), '8:00')
 
+WebUI.takeScreenshot()
+
 /*List<WebElement> timeBoxes = WebUI.findWebElements(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hours'), 10, 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -87,13 +91,22 @@ for (int i = 1; i <= numberOfTextboxes; i++) {
 }*/
 WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/input__btnSave'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_TimeSheet/div_SuccessfullySaved'), 0)
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/btn_Submit'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/input_ConfirmationRequired'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_TimeSheet/div_TimesheetSubmitted'), 0)
 
+WebUI.takeScreenshot()
+
 WebUI.callTestCase(findTestCase('Logout_HRM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Validate_Timesheet Approval_By_Manager'), [('username') : role_Manager, ('password') : password], 
+    FailureHandling.STOP_ON_FAILURE)
 

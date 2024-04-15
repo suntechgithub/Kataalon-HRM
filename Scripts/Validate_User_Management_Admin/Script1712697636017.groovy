@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login_To_HRM'), [('username') : role_Admin, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_UserManagement/b_Admin'))
 
@@ -27,11 +27,15 @@ WebUI.click(findTestObject('HRM_Page_UserManagement/a_Users'))
 
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/admin/viewSystemUsers')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/HRM_Page_UserManagement/input_Username_searchSystemUseruserName'), 'testers')
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Status__search'))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/a_testers'))
+
+WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_UserManagement/h1_Edit User'), 0)
 
@@ -41,6 +45,8 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/HRM_Page_UserManagem
     'Team Lead', true)
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input__btnSave'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Confirmation Required_dialogUpdateBtn'))
 
@@ -56,6 +62,8 @@ WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Stat
 
 WebUI.verifyElementText(findTestObject('Object Repository/HRM_Page_UserManagement/text_UserRole'), 'Team Lead')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/a_testers'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_UserManagement/h1_Edit User'), 0)
@@ -65,9 +73,13 @@ WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input__btn
 WebUI.selectOptionByLabel(findTestObject('Object Repository/HRM_Page_UserManagement/select_AdminAdmin ControllerESSTeam Lead'), 
     'ESS', true)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input__btnSave'))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Confirmation Required_dialogUpdateBtn'))
+
+WebUI.takeScreenshot()
 
 WebUI.callTestCase(findTestCase('Logout_HRM'), [:], FailureHandling.STOP_ON_FAILURE)
 

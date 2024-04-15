@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Validate_Leave_Applied_By_User</name>
+   <name>Validate_Leave_Submission_And_Approval</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e623b1d9-d9c2-47cf-a34d-67daab42fedf</testCaseGuid>
@@ -17,12 +17,18 @@
       <value></value>
       <variableId>4ad89f7b-bca3-40be-beab-8f824bcaa3a5</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>635b76c5-8ab4-4a3b-a642-575d7dd2bac9</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'manikantak'</defaultValue>
       <description></description>
       <id>fd190fed-8b96-4492-b3fa-acc55873777b</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>role_User</name>
    </variable>
    <variable>
       <defaultValue>'1Yb2dq4Z+zlC+JtSqaShbQ=='</defaultValue>
@@ -30,5 +36,12 @@
       <id>4ad89f7b-bca3-40be-beab-8f824bcaa3a5</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'sanjayk'</defaultValue>
+      <description></description>
+      <id>635b76c5-8ab4-4a3b-a642-575d7dd2bac9</id>
+      <masked>false</masked>
+      <name>role_Manager</name>
    </variable>
 </TestCaseEntity>

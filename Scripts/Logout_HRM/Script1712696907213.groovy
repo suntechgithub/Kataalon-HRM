@@ -19,11 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Logout/btn_UserProfile'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/HRM_Page_Logout/a_Logout'))
+
+WebUI.takeScreenshot()
 
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/auth/login')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Logout/span_Username'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

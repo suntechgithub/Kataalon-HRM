@@ -23,11 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/HRM_Page_Login/input_LOGIN Panel_txtUsername'), username)
 
+WebUI.takeScreenshot()
+
 WebUI.setEncryptedText(findTestObject('Object Repository/HRM_Page_Login/input_Username_txtPassword'), password)
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Login/btn_Login'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Login/h1_Dashboard'), 0)
 
-
+WebUI.takeScreenshot()
 

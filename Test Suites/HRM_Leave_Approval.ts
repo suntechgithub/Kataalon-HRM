@@ -15,7 +15,7 @@
       <guid>e2f07515-939c-4199-a18d-6486cc936ceb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Validate_Leave_Applied_By_User</testCaseId>
+      <testCaseId>Test Cases/Validate_Leave_Submission_And_Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,6 +28,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>4ad89f7b-bca3-40be-beab-8f824bcaa3a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>635b76c5-8ab4-4a3b-a642-575d7dd2bac9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -15,7 +15,7 @@
       <guid>58f2b781-d33f-4e18-88b6-9e381219f1fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Validate_Submit_Timesheet_By_User</testCaseId>
+      <testCaseId>Test Cases/Validate_TimeSheet_Submission_And_Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,6 +28,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>55fe8f28-8bcd-4fa8-9f69-2cc549715cc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7aee0205-3cc2-4a4d-a734-d11cd533828e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

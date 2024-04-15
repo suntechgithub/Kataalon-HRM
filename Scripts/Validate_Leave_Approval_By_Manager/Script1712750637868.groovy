@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/a_Leav
 
 WebUI.setText(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/input_EmployeeName'), '2903')
 
+WebUI.takeScreenshot()
+
 WebUI.sendKeys(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/input_EmployeeName'), Keys.chord(Keys.ENTER))
 
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/leave/viewLeaveList')
@@ -33,6 +35,8 @@ WebUI.click(findTestObject('HRM_Pending_Leave_Approvals/btn_Search'))
 
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/leave/viewLeaveList/reset/1')
 
+WebUI.takeScreenshot()
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/select_Select Action'), 'Approve', 
     true)
 
@@ -40,9 +44,15 @@ WebUI.click(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/btn_Sa
 
 WebUI.click(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/input_Confirmation Required'))
 
+WebUI.takeScreenshot()
+
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/div_SuccessfullyUpdated'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Pending_Leave_Approvals/div_SuccessfullyUpdated'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.callTestCase(findTestCase('Logout_HRM'), [:], FailureHandling.STOP_ON_FAILURE)
 

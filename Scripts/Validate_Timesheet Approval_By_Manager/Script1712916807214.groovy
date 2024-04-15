@@ -25,11 +25,15 @@ WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/a_T
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/a_Employee Timesheets'))
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/input_EmployeeName'), '2903')
 
 WebUI.sendKeys(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/input_EmployeeName'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/btn_Search'))
+
+WebUI.takeScreenshot()
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/select_Timesheets'), 60)
 
@@ -37,13 +41,23 @@ Thread.sleep(5000)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/select_Timesheets'), '3', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot()
+
+WebUI.mouseOver(findTestObject('HRM_Page_Approve_Timesheet/textarea_Comment'))
+
 WebUI.setText(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/textarea_Comment'), 'Approve')
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/input_Comment_button'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/input_ConfirmationRequired'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Approve_Timesheet/div_TimesheetApproved'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.callTestCase(findTestCase('Logout_HRM'), [:], FailureHandling.STOP_ON_FAILURE)
 

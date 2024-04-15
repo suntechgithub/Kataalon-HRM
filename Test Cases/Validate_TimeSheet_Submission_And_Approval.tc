@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Validate_Submit_Timesheet_By_User</name>
+   <name>Validate_TimeSheet_Submission_And_Approval</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c353ff52-2660-472b-ad3b-84641cc79db5</testCaseGuid>
@@ -17,12 +17,18 @@
       <value></value>
       <variableId>55fe8f28-8bcd-4fa8-9f69-2cc549715cc4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7aee0205-3cc2-4a4d-a734-d11cd533828e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'manikantak'</defaultValue>
       <description></description>
       <id>56f49786-d008-4fbe-9eb5-9be9cabc792a</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>role_User</name>
    </variable>
    <variable>
       <defaultValue>'1Yb2dq4Z+zlC+JtSqaShbQ=='</defaultValue>
@@ -30,5 +36,12 @@
       <id>55fe8f28-8bcd-4fa8-9f69-2cc549715cc4</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'sanjayk'</defaultValue>
+      <description></description>
+      <id>7aee0205-3cc2-4a4d-a734-d11cd533828e</id>
+      <masked>false</masked>
+      <name>role_Manager</name>
    </variable>
 </TestCaseEntity>

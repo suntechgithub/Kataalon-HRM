@@ -22,7 +22,7 @@
       <description></description>
       <id>26666deb-9b9b-4e5b-b8be-652ef42a8dd9</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>role_User</name>
    </variable>
    <variable>
       <defaultValue>'1Yb2dq4Z+zlC+JtSqaShbQ=='</defaultValue>
