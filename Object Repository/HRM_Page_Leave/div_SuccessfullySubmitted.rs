@@ -6,15 +6,25 @@
    <elementGuidId>2f698a88-059d-4789-b63f-d4e6c0898fa6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Successfully Submitted') or contains(., 'Successfully Submitted'))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='apply-leave']/div[2]/div</value>
+         <value>//div[(text() = '&#xd;
+Successfully Submitted   &#xd;
+    Close&#xd;
+' or . = '&#xd;
+Successfully Submitted   &#xd;
+    Close&#xd;
+')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.message.success.fadable</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>22503443-803a-4193-bc9a-3b4f0c22159e</webElementGuid>
+      <webElementGuid>83f91e7d-8ed7-43fd-9d3e-2324adf88949</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,18 +47,15 @@
       <name>class</name>
       <type>Main</type>
       <value>message success fadable</value>
-      <webElementGuid>29b8f6b0-2147-4b63-913d-5bc14f773478</webElementGuid>
+      <webElementGuid>21c0a6f5-a558-48e3-8ea4-09a5894a11fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-Successfully Submitted   
-    Close
-</value>
-      <webElementGuid>69b86ddc-bf1c-4029-bbab-2a3c1b5b0c15</webElementGuid>
+      <value>Successfully Submitted</value>
+      <webElementGuid>5dd2c38d-0dbc-4527-9f37-3b9f51e62574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +63,7 @@ Successfully Submitted
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;apply-leave&quot;)/div[@class=&quot;inner&quot;]/div[@class=&quot;message success fadable&quot;]</value>
-      <webElementGuid>769b6b53-b535-471e-9c60-d9c0bbcfe4aa</webElementGuid>
+      <webElementGuid>bdd54648-392d-4f57-8a6b-9aef49d6d03d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +71,7 @@ Successfully Submitted
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='apply-leave']/div[2]/div</value>
-      <webElementGuid>d98371c8-65d4-484a-b4fe-6687cbcbb5ca</webElementGuid>
+      <webElementGuid>95ba1f99-c0e3-49a9-8169-5b3876ec28d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +79,7 @@ Successfully Submitted
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply Leave'])[2]/following::div[2]</value>
-      <webElementGuid>2ad3cf08-0173-44b7-9d90-4a26675af9d0</webElementGuid>
+      <webElementGuid>05edc8eb-da2e-4d8e-9b64-e938981e2144</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +87,7 @@ Successfully Submitted
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid leave for the month of January will be added on January 10.'])[1]/following::div[4]</value>
-      <webElementGuid>e02da15a-7c33-4de3-b583-5295f6858a2a</webElementGuid>
+      <webElementGuid>26aa4fcf-d7f8-4b60-b338-745accf9c0ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +95,7 @@ Successfully Submitted
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::div[1]</value>
-      <webElementGuid>9adb14d2-aa95-4a2c-b00e-72b006034394</webElementGuid>
+      <webElementGuid>766a6631-67af-4130-91b8-9dd240a0a728</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +103,7 @@ Successfully Submitted
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Successfully Submitted']/parent::*</value>
-      <webElementGuid>9b488842-15b3-4eb4-b570-c85c7b6c677f</webElementGuid>
+      <webElementGuid>f9983102-8bb7-4ea4-ba9e-bb31adbaa29c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,20 +111,20 @@ Successfully Submitted
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>4f826601-321f-4f74-8836-0c2ab0916faf</webElementGuid>
+      <webElementGuid>bfbe17cd-b887-45fb-b7c2-295b21a1a247</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-Successfully Submitted   
-    Close
-' or . = '
-Successfully Submitted   
-    Close
+      <value>//div[(text() = '&#xd;
+Successfully Submitted   &#xd;
+    Close&#xd;
+' or . = '&#xd;
+Successfully Submitted   &#xd;
+    Close&#xd;
 ')]</value>
-      <webElementGuid>72f4bdae-e346-4769-8539-0c7e2abc6cb1</webElementGuid>
+      <webElementGuid>413245c6-2c2b-4eea-bc0c-6b8f246a04fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

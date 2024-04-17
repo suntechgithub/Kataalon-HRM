@@ -24,8 +24,6 @@ WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/b_Expense'))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Expense/a_Apply Expense'))
 
-WebUI.takeScreenshot()
-
 WebUI.setText(findTestObject('Object Repository/HRM_Page_Expense/input__tripName'), 'Test')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/HRM_Page_Expense/select_ClientName'), '2', true)
@@ -52,8 +50,6 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('HRM_Page_Expense/btn_Submit'))
 
-WebUI.takeScreenshot()
-
 Date currentDateTime = new Date()
 
 SimpleDateFormat dateFormat = new SimpleDateFormat('yyyy-MM-dd HH:mm:ss')
@@ -66,11 +62,7 @@ WebUI.acceptAlert()
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/div_SuccessfullySaved'))
 
-WebUI.takeScreenshot()
-
 WebUI.verifyElementPresent(findTestObject('HRM_Page_Expense/div_SuccessfullySaved'), 0)
-
-WebUI.takeScreenshot()
 
 WebUI.mouseOver(findTestObject('Object Repository/HRM_Page_Expense/b_Expense'))
 

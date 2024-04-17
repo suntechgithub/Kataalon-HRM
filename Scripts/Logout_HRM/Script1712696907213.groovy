@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Logout/btn_UserProfile'))
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/HRM_Page_Logout/a_Logout'))
 
 WebUI.takeScreenshot()

@@ -27,15 +27,11 @@ WebUI.click(findTestObject('HRM_Page_UserManagement/a_Users'))
 
 WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/admin/viewSystemUsers')
 
-WebUI.takeScreenshot()
-
 WebUI.setText(findTestObject('Object Repository/HRM_Page_UserManagement/input_Username_searchSystemUseruserName'), 'testers')
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Status__search'))
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/a_testers'))
-
-WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_UserManagement/h1_Edit User'), 0)
 
@@ -45,8 +41,6 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/HRM_Page_UserManagem
     'Team Lead', true)
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input__btnSave'))
-
-WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_UserManagement/input_Confirmation Required_dialogUpdateBtn'))
 

@@ -25,9 +25,7 @@ WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/span_My Timeshe
 //WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/Page_Sun Technologies HRM/span_My Timesheet'))
 WebUI.waitForElementClickable(findTestObject('HRM_Page_TimeSheet/select_Timesheet'), 60)
 
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByIndex(findTestObject('Object Repository/HRM_Page_TimeSheet/select_Timesheet'), '3', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/HRM_Page_TimeSheet/select_Timesheet'), '8', FailureHandling.STOP_ON_FAILURE)
 
 //ele = WebUI.waitForElementPresent(findTestObject('Object Repository/HRM_Page_TimeSheet/btn_Edit'), 60)
 /*if (ele == true) {
@@ -65,8 +63,6 @@ WebUI.clearText(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hrs_F
 
 WebUI.setText(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hrs_Fri'), '8:00')
 
-WebUI.takeScreenshot()
-
 /*List<WebElement> timeBoxes = WebUI.findWebElements(findTestObject('Object Repository/HRM_Page_TimeSheet/input_Hours'), 10, 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -90,8 +86,6 @@ for (int i = 1; i <= numberOfTextboxes; i++) {
     }
 }*/
 WebUI.click(findTestObject('Object Repository/HRM_Page_TimeSheet/input__btnSave'))
-
-WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_TimeSheet/div_SuccessfullySaved'), 0)
 

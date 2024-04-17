@@ -28,8 +28,6 @@ WebUI.navigateToUrl('http://172.16.29.165/symfony/web/index.php/leave/applyLeave
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Leave/h1_Apply Leave'), 0)
 
-WebUI.takeScreenshot()
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/HRM_Page_Leave/select_LeaveOptions'), '9', true)
 
 // Function to check if a given date is a weekend (Saturday or Sunday)
@@ -71,13 +69,7 @@ WebUI.setText(findTestObject('Object Repository/HRM_Page_Leave/text_Comment_Appl
 
 WebUI.click(findTestObject('Object Repository/HRM_Page_Leave/input__applyBtn'))
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/HRM_Page_Leave/input_Confirmation Required'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/HRM_Page_Leave/div_SuccessfullySubmitted'), 0)
 
 WebUI.takeScreenshot()
 

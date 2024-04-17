@@ -10,15 +10,15 @@
          <value>//*[(text() = 'Dashboard' or . = 'Dashboard')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//h1[(text() = 'Dashboard' or . = 'Dashboard')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>a89fe659-b7b1-4bd0-a46f-a64727502f15</webElementGuid>
+      <webElementGuid>fb8ffba7-8793-443b-ad45-7135bbc6b7ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dashboard</value>
-      <webElementGuid>5ac5e2d8-2e9d-4539-9365-7860d44b486c</webElementGuid>
+      <webElementGuid>7076a01f-1238-43e4-970d-de57e2d68e33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/div[@class=&quot;box&quot;]/div[@class=&quot;head&quot;]/h1[1]</value>
-      <webElementGuid>bcf52659-9b8f-485a-a612-0018c20196f7</webElementGuid>
+      <webElementGuid>b3883d85-b9b6-4bba-b989-1662ffa257bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/div/div/h1</value>
-      <webElementGuid>54c3f98b-1d33-4f5f-aa8b-a30ca378834c</webElementGuid>
+      <webElementGuid>a15bcb2d-b778-43a6-9aac-3291d6a603dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::h1[1]</value>
-      <webElementGuid>91a4a911-b0b1-4ea8-9a0b-8a3f399b869e</webElementGuid>
+      <webElementGuid>30987376-3dd0-46db-a890-01a5c3dcaba8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::h1[1]</value>
-      <webElementGuid>80289c76-2afe-43b4-b611-bdcdb694dbd4</webElementGuid>
+      <webElementGuid>53943849-ee37-4c61-9998-77bc8af23bb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Launch'])[1]/preceding::h1[1]</value>
-      <webElementGuid>c428cf11-9ae3-4dda-881c-c328d77f2fda</webElementGuid>
+      <webElementGuid>dd4b35ac-875b-4e19-95b6-512671f73e77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign Leave'])[2]/preceding::h1[1]</value>
-      <webElementGuid>51967a96-7ecf-45a6-b5c3-90be6b80134c</webElementGuid>
+      <webElementGuid>4474b52f-2a2d-44f3-81dc-3c957c2003a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>fa4897a4-521b-448d-90a9-d9221b769a58</webElementGuid>
+      <webElementGuid>08ccf540-c89d-4e96-ac18-623a3ecc690a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Dashboard' or . = 'Dashboard')]</value>
-      <webElementGuid>00e71cfb-c886-40d2-9e5b-049f459d967a</webElementGuid>
+      <webElementGuid>633ca55f-f1e9-402a-aade-ca018cec085f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
